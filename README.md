@@ -9,15 +9,22 @@ This plugin only works for Android and iOS devices and not PC.
 
 The Arduino script requires you to set up an electronic circuit with 25 LEDs/solenoids/etc as shown in the video. Ensure they are wired to the corresponding pin numbers as in the Arduino file. An Arduino MEGA was used for this project as it has enough number of pin holes.
 
-Steps:
-1. Wire the Arduino circuit containing HM10 Bluetooth module and solenoids.
-2. Connect to your Arduino and upload the sketch in Arduino folder. Ensure RXTX is disconnected during upload to avoid timeout error.
+2 octaves, fully chromatic scale is used to form 25 notes as shown below.
+<img width="436" alt="midirange" src="https://user-images.githubusercontent.com/23626462/61297441-d77fdb80-a80e-11e9-857d-ced140331160.PNG">
 
-For Android devices [deploy on Windows PC]:
+Steps for uploading Arduino:
+1. Wire the Arduino circuit containing HM10 Bluetooth module and solenoids.
+2. Connect to your Arduino and upload the sketch in Arduino folder. 
+3. If you run into TimeOut error, try the following:
+  a. Ensure RXTX is disconnected during upload
+  b. Ensure you have set the COM Port under Tools
+  b. Click the reset button on the Arduino.
+
+Steps for deploying on Android devices [deploy on Windows PC]:
 3. Open the Jukebox project under Build folder in Android Studio.
 4. Connect to your Android phone, enable USB Debugging options and Bluetooth & run application on the device.
 
-For iOS devices [delpoy on Mac PC]:
+For iOS devices [deploy on Mac PC]:
 3. [to be updated]
 
 To add new songs to the playlist:
