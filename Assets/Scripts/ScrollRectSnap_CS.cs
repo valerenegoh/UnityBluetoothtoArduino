@@ -37,14 +37,14 @@ public class ScrollRectSnap_CS : MonoBehaviour{
             distReposition[i] = center.GetComponent<RectTransform>().position.x - img[i].GetComponent<RectTransform>().position.x;
             distance[i] = Mathf.Abs(distReposition[i]);
             
-            if (distReposition[i] > 1000){
+            if (distReposition[i] > 2000){
                 float curX = img[i].GetComponent<RectTransform>().anchoredPosition.x;
                 float curY = img[i].GetComponent<RectTransform>().anchoredPosition.y;
 
                 Vector2 newAnchoredPos = new Vector2 (curX + (imgLength * imgDistance), curY);
                 img[i].GetComponent<RectTransform>().anchoredPosition = newAnchoredPos;
             }
-            if (distReposition[i] < -1000){
+            if (distReposition[i] < -2000){
                 float curX = img[i].GetComponent<RectTransform>().anchoredPosition.x;
                 float curY = img[i].GetComponent<RectTransform>().anchoredPosition.y;
 

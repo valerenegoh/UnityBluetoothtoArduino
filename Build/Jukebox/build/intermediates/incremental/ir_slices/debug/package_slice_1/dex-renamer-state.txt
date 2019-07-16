@@ -1,1 +1,4 @@
-#Fri Jul 12 10:32:54 SGT 2019
+#Tue Jul 16 21:03:01 SGT 2019
+base.0=C\:\\Users\\ASUS\\Downloads\\Telegram Desktop\\ToAndroid\\ToAndroid\\Build\\Jukebox\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

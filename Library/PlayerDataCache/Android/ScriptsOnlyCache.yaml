@@ -4,19 +4,14 @@ ScriptsOnlyBuild:
     - Draggable
     - DropZone
     - ScrollRectSnap_CS
-    - Settings
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
@@ -57,55 +52,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9258}
-    - Class: 114
-      Script: {instanceID: 9312}
-    - Class: 114
-      Script: {instanceID: 9314}
-    - Class: 114
-      Script: {instanceID: 9354}
-    - Class: 114
-      Script: {instanceID: 9372}
-    - Class: 114
-      Script: {instanceID: 9400}
-    - Class: 114
-      Script: {instanceID: 9402}
-    - Class: 114
-      Script: {instanceID: 9408}
-    - Class: 114
-      Script: {instanceID: 9410}
-    - Class: 114
-      Script: {instanceID: 9414}
-    - Class: 114
-      Script: {instanceID: 9418}
-    - Class: 114
-      Script: {instanceID: 9422}
-    - Class: 114
-      Script: {instanceID: 9424}
-    - Class: 114
-      Script: {instanceID: 9426}
-    - Class: 114
-      Script: {instanceID: 9450}
+      Script: {instanceID: 9404}
     - Class: 114
       Script: {instanceID: 9458}
     - Class: 114
       Script: {instanceID: 9460}
     - Class: 114
-      Script: {instanceID: 9690}
+      Script: {instanceID: 9500}
     - Class: 114
-      Script: {instanceID: 9778}
+      Script: {instanceID: 9518}
     - Class: 114
-      Script: {instanceID: 9908}
+      Script: {instanceID: 9548}
     - Class: 114
-      Script: {instanceID: 10116}
+      Script: {instanceID: 9554}
     - Class: 114
-      Script: {instanceID: 10184}
+      Script: {instanceID: 9556}
     - Class: 114
-      Script: {instanceID: 10408}
+      Script: {instanceID: 9560}
     - Class: 114
-      Script: {instanceID: 10448}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 10852}
+      Script: {instanceID: 9568}
+    - Class: 114
+      Script: {instanceID: 9572}
+    - Class: 114
+      Script: {instanceID: 9596}
+    - Class: 114
+      Script: {instanceID: 9604}
+    - Class: 114
+      Script: {instanceID: 9606}
+    - Class: 114
+      Script: {instanceID: 9834}
+    - Class: 114
+      Script: {instanceID: 9922}
+    - Class: 114
+      Script: {instanceID: 10052}
+    - Class: 114
+      Script: {instanceID: 10260}
+    - Class: 114
+      Script: {instanceID: 10328}
+    - Class: 114
+      Script: {instanceID: 10552}
+    - Class: 114
+      Script: {instanceID: 10592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -587,12 +576,6 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 0c9c7d49fefe41ff0682cbe7468a39b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ArduinoHM10Test
-  - hash:
-      serializedVersion: 2
       Hash: f08a111e17bb701f9c9ec57bb78d9920
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -623,7 +606,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: e0a59b7c33d88b8216bcb5a653bb673a
+      Hash: 4d0a1f97407c4620252d0835c55a2cbe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DropZone
@@ -821,7 +804,7 @@ ScriptsOnlyBuild:
     className: MainThreadDispatcher
   - hash:
       serializedVersion: 2
-      Hash: aefeca281da9c87a59b364a021870c07
+      Hash: 87d8b51e4021d61190de78646d375093
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScrollRectSnap_CS
@@ -893,12 +876,6 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 09de4684b8432153f01d4c2d42f56336
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Settings
-  - hash:
-      serializedVersion: 2
       Hash: e0ee4b3d4e27318934cc940a969d3d96
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -924,4 +901,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/UnitytoArduino/UnitytoArduino/Build/BluetoothJukebox
+  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Build

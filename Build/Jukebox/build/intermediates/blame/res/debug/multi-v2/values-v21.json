@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ASUS\\Downloads\\Telegram Desktop\\UnitytoArduino\\UnitytoArduino\\Build\\BluetoothJukebox\\Jukebox\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\ASUS\\Downloads\\Telegram Desktop\\ToAndroid\\UnityBluetoothtoArduino\\Build\\Jukebox\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\Downloads\\Telegram Desktop\\UnitytoArduino\\UnitytoArduino\\Build\\BluetoothJukebox\\Jukebox\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\ASUS\\Downloads\\Telegram Desktop\\ToAndroid\\UnityBluetoothtoArduino\\Build\\Jukebox\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
