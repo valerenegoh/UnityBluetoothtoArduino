@@ -31,3 +31,6 @@ To add new songs to the playlist:
 1. Run Part 1 of https://github.com/ValereneGoh/MiditoArduino to convert to midi to interpretable text format files.
 2. Add the text file to the folder under Assets > Scripts > txt.
 3. Open Unity and manually create a new CD player and holder for the new song via the Prefab folder.
+
+Test Scale under `Assets > Scripts > txt`:
+1. After connecting, run the first item in the playlist to test connectivity of solenoids. It should play the full chromatic scale of 25 notes.
