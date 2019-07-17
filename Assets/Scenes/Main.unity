@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.3e-44, y: 0, z: 1, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -407,7 +407,7 @@ PrefabInstance:
         type: 3}
       propertyPath: TextFile
       value: 
-      objectReference: {fileID: 4900000, guid: 50e199228a179134f9a91c8e1b7a51db, type: 3}
+      objectReference: {fileID: 4900000, guid: 604e88817e9e15a449b4b5e8104e6d09, type: 3}
     - target: {fileID: 9068891268251356899, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,12 +513,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 12e7b82c8d166354da59d2dfba78c29e,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -538,6 +532,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390295108453245789, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Flight of the Bumblebee
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120701808882903487, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Rimsky Korsakov
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
@@ -997,12 +1001,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 12e7b82c8d166354da59d2dfba78c29e,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1153,12 +1151,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8c67ff1ce6590794391b97322433abe6,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1178,6 +1170,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390295108453245789, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Test Scale
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120701808882903487, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: chromatic scale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
@@ -1503,7 +1505,7 @@ PrefabInstance:
         type: 3}
       propertyPath: TextFile
       value: 
-      objectReference: {fileID: 4900000, guid: 337f5685f29d3f34fb76d314be9f0e8c, type: 3}
+      objectReference: {fileID: 4900000, guid: ef5a8ee513af1e04da6f5493845831b8, type: 3}
     - target: {fileID: 9068891268251356899, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1609,12 +1611,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8c67ff1ce6590794391b97322433abe6,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1634,6 +1630,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390295108453245789, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Do Re Mi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120701808882903487, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: The Sound of Music
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
@@ -1926,7 +1932,7 @@ PrefabInstance:
         type: 3}
       propertyPath: TextFile
       value: 
-      objectReference: {fileID: 4900000, guid: fdf57452a1b69a34da18fb8ca93805e5, type: 3}
+      objectReference: {fileID: 4900000, guid: cf3d7e94434be7e439e4f6635893d7d0, type: 3}
     - target: {fileID: 9068891268251356899, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2032,12 +2038,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 87e4d6854d4386549a6fdd8a9dcf6292,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2057,6 +2057,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390295108453245789, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: My Heart Will Go On
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120701808882903487, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Titanic
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
@@ -2190,7 +2200,7 @@ PrefabInstance:
         type: 3}
       propertyPath: TextFile
       value: 
-      objectReference: {fileID: 4900000, guid: a1f023d66ccbe374aa2d466ca0242316, type: 3}
+      objectReference: {fileID: 4900000, guid: 5ee4c862fa01d38439b3740a8a5eba6a, type: 3}
     - target: {fileID: 9068891268251356899, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2296,12 +2306,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 87e4d6854d4386549a6fdd8a9dcf6292,
-        type: 3}
     - target: {fileID: 3127858190227727007, guid: 9a251b8a2c8c17342805444c46f68ec2,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2321,6 +2325,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390295108453245789, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: Edelweiss
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120701808882903487, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Text
+      value: The Sound of Music
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}

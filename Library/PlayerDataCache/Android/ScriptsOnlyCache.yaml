@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - Draggable
     - DropZone
     - ScrollRectSnap_CS
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -901,4 +903,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Build
+  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/UnityBluetoothtoArduino/Build

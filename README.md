@@ -20,17 +20,42 @@ Steps for uploading Arduino:
   b. Ensure you have set the COM Port under Tools
   b. Click the reset button on the Arduino.
 
-Steps for deploying on Android devices [deploy on Windows PC]:
-3. Open the Jukebox project under Build folder in Android Studio.
-4. Connect to your Android phone, enable USB Debugging options and Bluetooth & run application on the device.
+## Deployment
+A current version has already been deployed under the `Build` folder. If further changes are made to the Unity file, 
 
-For iOS devices [deploy on Mac PC]:
-3. [to be updated]
+### Steps for deploying on Android devices [Windows PC is needed]:
+1. Open the Jukebox project under Build folder in Android Studio.
+2. Ensure the following changes are made in the Manifest file: </br>
+  `<application android:isGame="false">` </br>
+    `<activity`  </br>
+      `android:launchMode="singleTop"`  </br>
+      `android:clearTaskOnLaunch="false" android:alwaysRetainTaskState="true">` </br>
+    `</activity>` </br>
+  `</application>`
+3. Enable USB Debugging options in your Android device, connect device to computer and Run App on your device.
+4. Unplug your device if you wish. You will need to enable Bluetooth beofre you run the App.
 
-To add new songs to the playlist:
-1. Run Part 1 of https://github.com/ValereneGoh/MiditoArduino to convert to midi to interpretable text format files.
+### Steps for deploying on  iOS devices [Mac PC is needed]:
+1. [to be updated]
+
+### To test your electronic circuit:
+For testing purposes a "Test Scale" has been added under `Assets > Scripts > txt`.
+1. Set up the 25 solenoids to your Arduino MEGA. It should look something like below:
+![img](https://user-images.githubusercontent.com/23626462/61359978-14e87580-a8b0-11e9-82e7-bcc2f16c1cfd.jpg)
+2. In the app, run the first item in the playlist "Test Scale". It should play the full chromatic scale of 25 notes.
+
+## Customisations
+You will need Unity to make changes to the App Interface.
+
+### To open the Unity Editor:
+1. Install Unity Hub and create an account: https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html
+2. Download any version of 2019. You must check the boxes for Android/iOS APK packages depending on what device you wish to deploy to. This may take a while.
+3. Open the project folder in Unity Hub.
+
+### To add new songs to the playlist:
+1. Run Part 1 of https://github.com/ValereneGoh/MiditoArduino to convert midi files into interpretable text file formats.
 2. Add the text file to the folder under Assets > Scripts > txt.
 3. Open Unity and manually create a new CD player and holder for the new song via the Prefab folder.
 
-Test Scale under `Assets > Scripts > txt`:
-1. After connecting, run the first item in the playlist to test connectivity of solenoids. It should play the full chromatic scale of 25 notes.
+### To change the tempo of the overall installation:
+1. Edit line 244 of the DropZone.cs in `Assets > Scripts`.
