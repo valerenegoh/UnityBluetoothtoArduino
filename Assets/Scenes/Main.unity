@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.1359028e-25, y: 0, z: 1.8e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -543,6 +543,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: Rimsky Korsakov
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 87e4d6854d4386549a6fdd8a9dcf6292,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!114 &320718885 stripped
@@ -704,6 +710,9 @@ MonoBehaviour:
   ServiceUUID: FFE0
   Characteristic: FFE1
   CdList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -1021,6 +1030,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12e7b82c8d166354da59d2dfba78c29e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!224 &668082938 stripped
@@ -1181,6 +1196,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: chromatic scale
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c67ff1ce6590794391b97322433abe6,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!114 &700863056 stripped
@@ -1641,6 +1662,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: The Sound of Music
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 87e4d6854d4386549a6fdd8a9dcf6292,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!114 &1324694964 stripped
@@ -2068,6 +2095,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: Titanic
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c67ff1ce6590794391b97322433abe6,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!114 &1913957679 stripped
@@ -2336,6 +2369,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: The Sound of Music
       objectReference: {fileID: 0}
+    - target: {fileID: 9068891268251356896, guid: 9a251b8a2c8c17342805444c46f68ec2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12e7b82c8d166354da59d2dfba78c29e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a251b8a2c8c17342805444c46f68ec2, type: 3}
 --- !u!1001 &420718743332969790
